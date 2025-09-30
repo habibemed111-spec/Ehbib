@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>انبيت عشرة — الصفحة الرئيسية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+         :root {
+            --accent: #0d6efd;
+            --dark: #0b1220;
+            --muted: #6c757d;
+            --card: #ffffff;
+            --bg: #f5f7fb;
+            --glass: rgba(255, 255, 255, 0.65);
+        }
+        
+        * {
+            box-sizing: border-box
+        }
+        
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Cairo', system-ui, Arial;
+            background: var(--bg);
+            color: var(--dark);
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 24px
+        }
+        
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 0
+        }
+        
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px
+        }
+        
+        .logo {
+            width: 70px;
+            height: 70px;
+            border-radius: 12px;
+            overflow: hidden
+        }
+        
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain
+        }
+        
+        nav a {
+            margin-left: 18px;
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600
+        }
+        
+        .hero {
+            background: linear-gradient(180deg, rgba(13, 110, 253, 0.08), transparent);
+            border-radius: 18px;
+            padding: 28px;
+            display: grid;
+            grid-template-columns: 1fr 380px;
+            gap: 20px;
+            align-items: center
+        }
+        
+        .hero h1 {
+            margin: 0;
+            font-size: 34px
+        }
+        
+        .hero p {
+            color: var(--muted);
+            margin-top: 8px
+        }
+        
+        .btn {
+            background: var(--accent);
+            color: #fff;
+            padding: 12px 18px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-weight: 700
+        }
+        
+        .secondary {
+            background: transparent;
+            border: 2px solid var(--accent);
+            color: var(--accent);
+            padding: 10px 14px;
+            border-radius: 10px
+        }
+        
+        .card {
+            background: var(--card);
+            border-radius: 14px;
+            padding: 16px;
+            box-shadow: 0 6px 18px rgba(13, 20, 30, 0.06)
+        }
+        
+        footer {
+            margin-top: 28px;
+            padding: 22px;
+            border-radius: 12px;
+            text-align: center;
+            color: var(--muted)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="brand">
+                <div class="logo">
+                    <img src="9c1006c0-aaf6-46ff-a98a-a54588981cdd.jpg" alt="شعار النادي">
+                </div>
+                <div>
+                    <div style="font-weight:700;font-size:18px">انبيت عشرة NB10</div>
+                    <div style="font-size:13px;color:var(--muted)">أكبر الأندية — المجتمع، الرياضة، والفعاليات</div>
+                </div>
+            </div>
+            <nav>
+                <a href="#home">الرئيسية</a>
+                <a href="#teams">الفرق</a>
+                <a href="#events">الفعاليات</a>
+                <a href="#gallery">معرض</a>
+                <a href="#contact">اتصل بنا</a>
+            </nav>
+        </header>
+
+        <section class="hero card" id="home">
+            <div>
+                <h1>مرحبا بك في <span style="color:var(--accent)">انبيت عشرة</span></h1>
+                <p>نادي متعدد الأنشطة يضم فرقًا رياضية، نوادي ثقافية، وبرامج للشباب. انضم إلينا وكن جزءًا من العائلة.</p>
+                <button class="btn">انضم الآن</button>
+            </div>
+            <div style="text-align:center">
+                <img src="9c1006c0-aaf6-46ff-a98a-a54588981cdd.jpg" alt="شعار NB10" style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1)">
+            </div>
+        </section>
+
+        <footer>
+            © 2025 انبيت عشرة NB10 — كل الحقوق محفوظة
+        </footer>
+    </div>
+</body>
+
+</html>
